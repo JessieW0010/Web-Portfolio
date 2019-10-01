@@ -86,6 +86,8 @@ export default function Skills() {
               BDD
               <br />
               RESTful Architechture
+              <br />
+              Baking cookies
             </p>
           </li>
         </ul>
