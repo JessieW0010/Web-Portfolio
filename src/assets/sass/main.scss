@@ -727,7 +727,7 @@
 		}
 
 		&.stacked {
-			@include vendor('flex-direction', 'column');
+			@include vendor('flex-direction', 'row');
 			margin-left: 0;
 
 			li {
@@ -759,7 +759,7 @@
 
 		@include breakpoint('<=xsmall') {
 			&:not(.fixed) {
-				@include vendor('flex-direction', 'column');
+				@include vendor('flex-direction', 'row');
 				margin-left: 0;
 				width: 100% !important;
 
@@ -1764,13 +1764,12 @@
 
 	#cta {
 		.inner {
-			@include vendor('display', 'flex');
+			@include vendor('display', 'auto');
 			max-width: 45em;
 
 			header {
 				@include vendor('order', '1');
-				padding-right: 3em;
-				width: 70%;
+				width: 100%;
 
 				p {
 					color: inherit;
@@ -1779,7 +1778,9 @@
 
 			.actions {
 				@include vendor('order', '2');
-				width: 30%;
+				width: 100%;
+				justify-content: space-around;
+				align-items: baseline;
 			}
 
 			@include breakpoint('<=medium') {

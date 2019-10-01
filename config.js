@@ -14,19 +14,19 @@ module.exports = {
   socialLinks: [
     {
       style: 'brands',
-      icon: 'fa-github',
+      icon: 'fa-github fa-2x',
       name: 'Github',
       url: 'https://github.com/JessieW0010',
     },
     {
       style: 'brands',
-      icon: 'fa-linkedin',
+      icon: 'fa-linkedin fa-2x',
       name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/JessieW0010',
     },
     {
       style: 'solid',
-      icon: 'fa-envelope',
+      icon: 'fa-envelope fa-2x',
       name: 'Email',
       url: 'mailto:wangj.5415@gmail.com',
     },
