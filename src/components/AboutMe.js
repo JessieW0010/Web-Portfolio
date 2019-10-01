@@ -8,36 +8,18 @@ export default function AboutMe() {
       </div>
       <div className="inner">
         <header className="major">
-          <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
-          </h2>
+          <h2>Hi! I'm Jessie!</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            I was previously working as a researcher studying organic polymers
+            before making the transition into web and mobile development.
+            Currently I work as a backend developer at Groupdesk in Toronto.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            In my spare time I love to experiment with cooking; anything from
+            making my own kimchi to fermenting my own beer. Otherwise, I'm
+            contributing to open-source projects or working on my app, 
+            PlanIt.
           </p>
         </header>
-        {/* <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul> */}
       </div>
     </section>
   );

@@ -5,56 +5,87 @@ export default function Skills() {
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
+          <h2>My Skill Set</h2>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>Frontend</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              React
+              <br />
+              React Native
+              <br />
+              Redux
+              <br />
+              JQuery
+              <br />
+              JavaScript ES6
+              <br />
+              CSS3
+              <br />
+              SASS
+              <br />
+              HTML5
+              <br />
+              Bootstrap
             </p>
           </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+          <li className="icon solid fa-server">
+            <h3>Backend</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Node.js
+              <br />
+              Express.js
+              <br />
+              Ruby on Rails
             </p>
           </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+          <li className="icon solid fa-database">
+            <h3>Database</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Postgres
+              <br />
+              Active Records
             </p>
           </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
+          <li className="icon solid fa-clipboard-check">
+            <h3>Testing Tools</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Mocha/ Chai
+              <br />
+              Jest
+              <br />
+              Cypress
+              <br />
+              Capybara/ Poltergeist
+              <br />
+              RSpec
+            </p>
+          </li>
+          <li className="icon solid fa-rocket">
+            <h3>Deployment Tools</h3>
+            <p>
+              Heroku
+              <br />
+              Netlify
+              <br />
+              Firebase
+              <br />
+              CircleCI
+              <br />
+              Github Pages
+            </p>
+          </li>
+          <li className="icon solid fa-code-branch">
+            <h3>Others</h3>
+            <p>
+              Git
+              <br />
+              TDD
+              <br />
+              BDD
+              <br />
+              RESTful Architechture
             </p>
           </li>
         </ul>

@@ -356,6 +356,10 @@
 			p {
 				color: _palette(fg);
 				top: 0;
+				padding-left: 10%;
+				@include breakpoint('<=small') {
+					padding-left: 0;
+				}
 			}
 
 			@include breakpoint('<=small') {
@@ -1339,6 +1343,10 @@
 				width: 100%;
 				margin-left: 50%;
 	
+				@include breakpoint('<=large') {
+					margin-left: 20%;
+				}
+
 				@include breakpoint('<=medium') {
 					width: 90%;
 					margin: 0;
