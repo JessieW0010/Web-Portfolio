@@ -1,6 +1,6 @@
 import React from 'react';
-import Scroll from 'src/components/Scroll';
-import config from '/config';
+import Scroll from '../components/Scroll';
+import config from '../../config';
 
 export default function Intro() {
   return (
