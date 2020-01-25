@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
-import '../assets/sass/main.scss';
-import Footer from './Footer';
-import SideBar from './Sidebar';
+import 'src/assets/sass/main.scss';
+import Footer from 'src/components/Footer';
+import SideBar from 'src/components/Sidebar';
 
 class Layout extends Component {
   constructor(props) {

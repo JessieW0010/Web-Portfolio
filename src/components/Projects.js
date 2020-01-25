@@ -1,7 +1,7 @@
 import React from 'react';
-import pic1 from '../assets/images/planitmockup.jpg';
-import pic2 from '../assets/images/schedulermockup.jpg';
-import pic3 from '../assets/images/geopinmockup.jpg';
+import pic1 from 'src/assets/images/planitmockup.jpg';
+import pic2 from 'src/assets/images/schedulermockup.jpg';
+import pic3 from 'src/assets/images/geopinmockup.jpg';
 
 export default function Projects() {
   return (

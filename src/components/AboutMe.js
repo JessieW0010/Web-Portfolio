@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <section id="one" className="wrapper style1 special">
       <div className="about-image">
-        <img src={require('../assets/images/avatar.png')} />
+        <img src={require('src/assets/images/avatar.png')} />
       </div>
       <div className="inner">
         <header className="major">
