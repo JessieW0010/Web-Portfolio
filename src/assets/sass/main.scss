@@ -167,6 +167,7 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		color: white;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1377,7 +1378,7 @@
 		}
 
 		&.style1 {
-			@include wrapper(accent1);
+			background-color: _palette(bg);
 		}
 
 		&.style2 {
@@ -1661,6 +1662,7 @@
 		p {
 			letter-spacing: _size(letter-spacing-alt);
 			text-transform: uppercase;
+			color: white;
 
 			a {
 				color: inherit;

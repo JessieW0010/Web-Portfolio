@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../assets/files/resume.pdf';
 
 export default function Skills() {
   return (
@@ -6,6 +7,7 @@ export default function Skills() {
       <div className="inner">
         <header className="major">
           <h2>My Skill Set</h2>
+          <a href={resume} target="_blank" style={{textAlign: 'center', paddingLeft: 0, display: 'block', borderBottom: 'none', cursor: 'pointer', color: 'white'}}>Resume</a>
         </header>
         <ul className="features">
           <li className="icon solid fa-code">
@@ -14,6 +16,10 @@ export default function Skills() {
               React
               <br />
               React Native
+              <br />
+              Angular
+              <br />
+              AngularJS
               <br />
               Redux
               <br />
@@ -26,8 +32,6 @@ export default function Skills() {
               SASS
               <br />
               HTML5
-              <br />
-              Bootstrap
             </p>
           </li>
           <li className="icon solid fa-server">
@@ -38,6 +42,8 @@ export default function Skills() {
               Express.js
               <br />
               Ruby on Rails
+              <br />
+              Golang
             </p>
           </li>
           <li className="icon solid fa-database">
@@ -46,6 +52,8 @@ export default function Skills() {
               Postgres
               <br />
               Active Records
+              <br />
+              MongoDB
             </p>
           </li>
           <li className="icon solid fa-clipboard-check">
@@ -65,13 +73,11 @@ export default function Skills() {
           <li className="icon solid fa-rocket">
             <h3>Deployment Tools</h3>
             <p>
-              Heroku
+              CircleCI
               <br />
               Netlify
               <br />
-              Firebase
-              <br />
-              CircleCI
+              Heroku
               <br />
               Github Pages
             </p>
