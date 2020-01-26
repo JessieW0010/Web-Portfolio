@@ -1059,9 +1059,20 @@
 		}
 	}
 
+	.carousel-control-next {
+		border-bottom: none;
+	}
+	
+	.carousel-control-prev {
+		border-bottom: none;
+	}
+
 /* Spotlight */
 
 	.spotlight {
+		padding-top: 5%;
+		padding-bottom: 5%;
+
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 
@@ -1774,7 +1785,7 @@
 				width: 100%;
 
 				p {
-					color: inherit;
+					color: white;
 				}
 			}
 

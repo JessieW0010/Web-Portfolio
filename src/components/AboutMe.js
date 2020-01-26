@@ -12,11 +12,12 @@ export default function AboutMe() {
           <p>
             I was previously working as a researcher studying organic polymers
             before making the transition into web and mobile development.
-            Currently I work as a backend developer at Groupdesk in Toronto.
+            Currently I work as a junior software developer at Groupdesk in Toronto.
+            <br />
             <br />
             In my spare time I love to experiment with cooking; anything from
             making my own kimchi to fermenting my own beer. Otherwise, I'm
-            contributing to open-source projects or working on my app, 
+            contributing to open-source projects or working on my side project, 
             PlanIt.
           </p>
         </header>
